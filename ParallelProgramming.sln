@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section 1 - Fundamentals of Threading, Multitasking, and Asynchrony", "Section 1 - Fundamentals of Threading, Multitasking, and Asynchrony", "{87091924-B4F3-46D2-B397-B4FE62B3E879}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section 2 - Data Structures that Support Parallelism in .NET Core", "Section 2 - Data Structures that Support Parallelism in .NET Core", "{E1378137-CA53-4CB4-ACD6-6119DA125DD0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section 3 - Asynchronous Programming Using CSharp", "Section 3 - Asynchronous Programming Using CSharp", "{AA8A1796-D838-45DC-A7A3-A39DA0912382}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section 4 - Debugging, Diagnostics, and Unit Testing for Async Code", "Section 4 - Debugging, Diagnostics, and Unit Testing for Async Code", "{B90C3D56-5228-4C03-BC90-D6665547A640}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section 5 - Parallel Programming Feature Additions to .NET Core", "Section 5 - Parallel Programming Feature Additions to .NET Core", "{D8BCB323-FF9D-4367-83C1-5CF66F5EBDD1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 1 - Introduction to Parallel Programming", "Chapter 1 - Introduction to Parallel Programming", "{236D67CE-627C-48B8-9FA0-ED7B139FD226}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 2 - Task Parallelism", "Chapter 2 - Task Parallelism", "{0FF27388-0D9F-4459-A792-C1A2C4923428}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 3 - Implementing Data Parallelism", "Chapter 3 - Implementing Data Parallelism", "{A2EA3010-93B4-4B60-9DFF-6EC13F117842}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 4 - Using PLINQ", "Chapter 4 - Using PLINQ", "{B300CDB5-EA11-4A72-87B0-4DB1715695E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 5 - Synchronization Primitives", "Chapter 5 - Synchronization Primitives", "{FAB3CD67-87E6-466F-8684-2414D2711E21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 6 - Using Concurrent Collections", "Chapter 6 - Using Concurrent Collections", "{6F8E09E8-66F7-4CA9-8E57-019304E6FCBD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 7 - Improving Performance with Lazy Initialization", "Chapter 7 - Improving Performance with Lazy Initialization", "{B3056DC0-0E91-4F08-B757-7F39935450C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 8 - Introduction to Asynchronous Programming", "Chapter 8 - Introduction to Asynchronous Programming", "{FB32DD82-C78E-4361-A4B7-10E551E87AB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 9 - Async, Await, and Task-Based Asynchronous Programming Basics", "Chapter 9 - Async, Await, and Task-Based Asynchronous Programming Basics", "{46C963C3-68E9-4DCE-B5B3-B57D4EB90608}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 10 - Debugging Tasks Using Visual Studio", "Chapter 10 - Debugging Tasks Using Visual Studio", "{B956EDE5-8FCD-4175-B19D-B93E5CAEDE91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 11 - Writing Unit Test Cases for Parallel and Asynchronous Code", "Chapter 11 - Writing Unit Test Cases for Parallel and Asynchronous Code", "{A2B48932-90DD-47B8-A8F6-F98B36CD324C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 12 - IIS and Kestrel in ASP.NET Core", "Chapter 12 - IIS and Kestrel in ASP.NET Core", "{E807419A-0464-42CF-AE8A-CD47B0452959}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 13 - Patterns in Parallel Programming", "Chapter 13 - Patterns in Parallel Programming", "{3A334C27-5EDC-457A-8741-E5069D04D642}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 14 - Distributed Memory Management", "Chapter 14 - Distributed Memory Management", "{6FF0FCF8-3227-4B0E-9ECA-2B92A9C16BEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch1", "Ch1\Ch1.csproj", "{8D074113-6734-4ED3-8595-C6BAD1F1BB81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D074113-6734-4ED3-8595-C6BAD1F1BB81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D074113-6734-4ED3-8595-C6BAD1F1BB81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D074113-6734-4ED3-8595-C6BAD1F1BB81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D074113-6734-4ED3-8595-C6BAD1F1BB81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{236D67CE-627C-48B8-9FA0-ED7B139FD226} = {87091924-B4F3-46D2-B397-B4FE62B3E879}
+		{0FF27388-0D9F-4459-A792-C1A2C4923428} = {87091924-B4F3-46D2-B397-B4FE62B3E879}
+		{A2EA3010-93B4-4B60-9DFF-6EC13F117842} = {87091924-B4F3-46D2-B397-B4FE62B3E879}
+		{B300CDB5-EA11-4A72-87B0-4DB1715695E7} = {87091924-B4F3-46D2-B397-B4FE62B3E879}
+		{FAB3CD67-87E6-466F-8684-2414D2711E21} = {E1378137-CA53-4CB4-ACD6-6119DA125DD0}
+		{6F8E09E8-66F7-4CA9-8E57-019304E6FCBD} = {E1378137-CA53-4CB4-ACD6-6119DA125DD0}
+		{B3056DC0-0E91-4F08-B757-7F39935450C8} = {E1378137-CA53-4CB4-ACD6-6119DA125DD0}
+		{FB32DD82-C78E-4361-A4B7-10E551E87AB4} = {AA8A1796-D838-45DC-A7A3-A39DA0912382}
+		{46C963C3-68E9-4DCE-B5B3-B57D4EB90608} = {AA8A1796-D838-45DC-A7A3-A39DA0912382}
+		{B956EDE5-8FCD-4175-B19D-B93E5CAEDE91} = {B90C3D56-5228-4C03-BC90-D6665547A640}
+		{A2B48932-90DD-47B8-A8F6-F98B36CD324C} = {B90C3D56-5228-4C03-BC90-D6665547A640}
+		{E807419A-0464-42CF-AE8A-CD47B0452959} = {D8BCB323-FF9D-4367-83C1-5CF66F5EBDD1}
+		{3A334C27-5EDC-457A-8741-E5069D04D642} = {D8BCB323-FF9D-4367-83C1-5CF66F5EBDD1}
+		{6FF0FCF8-3227-4B0E-9ECA-2B92A9C16BEE} = {D8BCB323-FF9D-4367-83C1-5CF66F5EBDD1}
+		{8D074113-6734-4ED3-8595-C6BAD1F1BB81} = {236D67CE-627C-48B8-9FA0-ED7B139FD226}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC76390C-8A91-427B-846F-E347E1BC9289}
+	EndGlobalSection
+EndGlobal
