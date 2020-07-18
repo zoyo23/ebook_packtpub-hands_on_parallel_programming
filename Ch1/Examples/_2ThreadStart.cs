@@ -3,9 +3,9 @@ using System.Threading;
 
 namespace Ch1
 {
-    public static class _2ThreadStart
+    public class _2ThreadStart : IBaseExecutor
     {
-        public static void Executar()
+        public void Run()
         {
             Console.WriteLine("Start Execution!!!");
 
@@ -14,6 +14,7 @@ namespace Ch1
 
             Console.WriteLine("Finish Execution");
         }
+
         private static void CreateThreadUsingThreadClassWithoutParameter()
         {
             Thread thread;
@@ -28,5 +29,7 @@ namespace Ch1
             }
             Console.WriteLine();
         }
+
+
     }
 }

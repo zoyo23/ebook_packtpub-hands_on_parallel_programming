@@ -3,9 +3,9 @@ using System.Threading;
 
 namespace Ch1
 {
-    public static class _3ParameterizedThreadStart
+    public class _3ParameterizedThreadStart : IBaseExecutor
     {
-        public static void Executar()
+        public void Run()
         {
             Console.WriteLine("Start Execution!!!");
 

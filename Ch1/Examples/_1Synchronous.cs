@@ -2,9 +2,10 @@
 
 namespace Ch1
 {
-    public static class _1Synchronous
+    public class _1Synchronous : IBaseExecutor
     {
-        public static void Executar()
+
+        public void Run()
         {
             Console.WriteLine("Start Execution!!!");
 
@@ -20,5 +21,6 @@ namespace Ch1
             }
             Console.WriteLine();
         }
+
     }
 }

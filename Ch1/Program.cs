@@ -8,11 +8,15 @@ namespace Ch1
         private static readonly TimeSpan WaitingTimeAfterExecution = TimeSpan.FromSeconds(5);
         static void Main(string[] args)
         {
-            _1Synchronous.Executar();
+            //new _1Synchronous().Run();
 
-            _2ThreadStart.Executar();
+            //new _2ThreadStart().Run();
 
-            _3ParameterizedThreadStart.Executar();
+            //new _3ParameterizedThreadStart().Run();
+
+            //new _4ThreadPool().Run();
+
+            //new _5BackgroundWorker().Run();
 
             Thread.Sleep(WaitingTimeAfterExecution);
         }
