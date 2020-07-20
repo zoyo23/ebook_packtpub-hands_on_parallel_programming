@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Threading;
+using System.Threading.Tasks;
 
 namespace Ch1
 {
@@ -18,7 +18,7 @@ namespace Ch1
 
             //new _5BackgroundWorker().Run();
 
-            Thread.Sleep(WaitingTimeAfterExecution);
+            Task.Delay(WaitingTimeAfterExecution).Wait();
         }
     }
 }
