@@ -22,15 +22,13 @@ namespace Ch02
 
             //new _DownloadFileWithToken().Run();
 
-            //new _TaskWaitAll().Run();
+            new _TaskWait().Run();
 
-            //new _TaskWaitAny().Run();
+            //new _ReadFile().Run();
 
-            //new _TaskWhenAll().Run();
+            //new _TaskContinue().Run();
 
-            //new _TaskWhenAny().Run();
-
-            new _ReadFile().Run();
+            //new _TaskChild().Run();
 
             Task.Delay(WaitingTimeAfterExecution).Wait();
         }
