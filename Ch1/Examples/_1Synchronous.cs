@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Ch1
+namespace Ch01
 {
     public class _1Synchronous : IBaseExecutor
     {

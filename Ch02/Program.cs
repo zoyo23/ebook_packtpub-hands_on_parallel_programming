@@ -22,7 +22,7 @@ namespace Ch02
 
             //new _DownloadFileWithToken().Run();
 
-            new _TaskWait().Run();
+            //new _TaskWait().Run();
 
             //new _ReadFile().Run();
 

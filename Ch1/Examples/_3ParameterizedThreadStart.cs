@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace Ch1
+namespace Ch01
 {
     public class _3ParameterizedThreadStart : IBaseExecutor
     {

@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Text;
 using System.Threading;
 
-namespace Ch1
+namespace Ch01
 {
     public class _5BackgroundWorker : IBaseExecutor
     {
