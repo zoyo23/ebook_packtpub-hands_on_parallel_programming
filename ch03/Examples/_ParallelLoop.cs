@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ch03.Examples
 {
-    public class _Parallel : IBaseExecutor
+    public class _ParallelLoop : IBaseExecutor
     {
         public void Run()
         {

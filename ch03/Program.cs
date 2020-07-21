@@ -10,8 +10,11 @@ namespace ch03
 
         static void Main(string[] args)
         {
-            new _Parallel().Run();
+            //new _ParallelLoop().Run();
 
+            //new _PartitionStrategy().Run();
+
+            new _ParallelLoopCanceling().Run();
 
             Task.Delay(WaitingTimeAfterExecution).Wait();
         }
