@@ -14,7 +14,9 @@ namespace ch03
 
             //new _PartitionStrategy().Run();
 
-            new _ParallelLoopCanceling().Run();
+            //new _ParallelLoopCanceling().Run();
+
+            new _ThreadStorage().Run();
 
             Task.Delay(WaitingTimeAfterExecution).Wait();
         }
