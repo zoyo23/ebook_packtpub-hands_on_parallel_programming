@@ -6,7 +6,7 @@ Codes of the book: https://www.packtpub.com/application-development/hands-parall
 
 # **Section 1: Fundamentals of Threading, Multitasking, and Asynchrony**
 
-## **[Chapter 1: Introduction to Parallel Programming](./Ch1/ "Preparing for multi-core computing")**
+## **[Chapter 1: Introduction to Parallel Programming](./Ch01/ "Preparing for multi-core computing")**
 * Technical requirements
 * Preparing for multi-core computing
 * Scenarios where parallel programming can come in handy
@@ -14,7 +14,7 @@ Codes of the book: https://www.packtpub.com/application-development/hands-parall
 * Summary
 * Questions
 
-## **Chapter 2: Task Parallelism**
+## **[Chapter 2: Task Parallelism](./Ch02/ "Task Parallelism")**
 * Technical requirements
 * Tasks
 * Creating and starting a task
@@ -28,7 +28,7 @@ Codes of the book: https://www.packtpub.com/application-development/hands-parall
 * Work-stealing queues
 * Summary
 
-## **Chapter 3: Implementing Data Parallelism**
+## **[Chapter 3: Implementing Data Parallelism](./Ch03/ "Implementing Data Parallelism")**
 * Technical requirements
 * Moving from sequential loops to parallel loops
 * Understanding the degree of parallelism
@@ -38,7 +38,7 @@ Codes of the book: https://www.packtpub.com/application-development/hands-parall
 * Summary
 * Questions
 
-## **Chapter 4: Using PLINQ**
+## **[Chapter 4: Using PLINQ](./Ch04/ "Using PLINQ")**
 * Technical requirements
 * LINQ providers in .NET
 * Writing PLINQ queries
