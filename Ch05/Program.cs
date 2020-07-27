@@ -1,8 +1,8 @@
-﻿using Ch5.Examples;
+﻿using Ch05.Examples;
 using System;
 using System.Threading.Tasks;
 
-namespace Ch5
+namespace Ch05
 {
     class Program
     {

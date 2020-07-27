@@ -1,9 +1,8 @@
-﻿using Ch05;
-using System;
+﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Ch5.Examples
+namespace Ch05.Examples
 {
     public class _SynchronizationPrimitives : IBaseExecutor
     {

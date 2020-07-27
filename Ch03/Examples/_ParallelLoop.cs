@@ -7,7 +7,7 @@ using System.Net.NetworkInformation;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace ch03.Examples
+namespace Ch03.Examples
 {
     public class _ParallelLoop : IBaseExecutor
     {

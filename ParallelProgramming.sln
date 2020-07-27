@@ -49,7 +49,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ch03", "Ch03\Ch03.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ch04", "Ch04\Ch04.csproj", "{8133D870-33EB-468B-9B60-550AA0D50B8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch5", "Ch5\Ch5.csproj", "{53D853C7-0CF5-4601-AE62-4ACB42F96453}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch05", "Ch05\Ch05.csproj", "{53D853C7-0CF5-4601-AE62-4ACB42F96453}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

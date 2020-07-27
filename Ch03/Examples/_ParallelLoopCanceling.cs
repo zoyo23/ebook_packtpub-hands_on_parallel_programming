@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace ch03.Examples
+namespace Ch03.Examples
 {
     public class _ParallelLoopCanceling : IBaseExecutor
     {

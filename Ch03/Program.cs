@@ -1,8 +1,8 @@
-﻿using ch03.Examples;
+﻿using Ch03.Examples;
 using System;
 using System.Threading.Tasks;
 
-namespace ch03
+namespace Ch03
 {
     class Program
     {
