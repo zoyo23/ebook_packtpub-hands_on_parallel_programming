@@ -10,7 +10,8 @@ namespace Ch05
 
         static void Main(string[] args)
         {
-            new _SynchronizationPrimitives().Run();
+            //new _SynchronizationPrimitives().Run();
+            new _Monitors().Run();
 
             Task.Delay(WaitingTimeAfterExecution).Wait();
         }
