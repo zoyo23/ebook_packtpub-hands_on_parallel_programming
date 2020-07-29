@@ -9,7 +9,7 @@ Codes of the book: https://www.packtpub.com/application-development/hands-parall
 ## **[Chapter 1: Introduction to Parallel Programming](./Ch01/ "Preparing for multi-core computing")**
 * Technical requirements
 * Preparing for multi-core computing
-* Scenarios where parallel programming can come in handy
+* [Scenarios where parallel programming can come in handy](./Ch01/Examples/ "Scenarios where parallel programming can come in handy")
 * Advantages and disadvantages of parallel programming
 * Summary
 * Questions
@@ -17,14 +17,14 @@ Codes of the book: https://www.packtpub.com/application-development/hands-parall
 ## **[Chapter 2: Task Parallelism](./Ch02/ "Task Parallelism")**
 * Technical requirements
 * Tasks
-* Creating and starting a task
-* Getting results from finished tasks
-* How to cancel tasks
-* How to wait on running tasks
-* Handling task exceptions
-* Converting APM patterns into tasks
+* [Creating and starting a task](./Ch02/Examples/_1StaticTaskFromResultUsingLambda.cs "Creating and starting a task")
+* [Getting results from finished tasks](./Ch02/Examples/_2GettingResultFromTasks.cs "Getting results from finished tasks")
+* [How to cancel tasks](./Ch02/Examples/_CancelTaskViaPoll.cs "How to cancel tasks")
+* [How to wait on running tasks](./Ch02/Examples/_TaskWait.cs "How to wait on running tasks")
+* [Handling task exceptions](./Ch02/Examples/_4HandlingExceptions.cs "Handling task exceptions")
+* [Converting APM patterns into tasks](./Ch02/Examples/_ReadFile.cs "Converting APM patterns into tasks")
 * Converting EAPs into tasks
-* More on tasks
+* [More on tasks](./Ch02/Examples/_TaskContinue.cs "More on tasks")
 * Work-stealing queues
 * Summary
 
@@ -42,24 +42,24 @@ Codes of the book: https://www.packtpub.com/application-development/hands-parall
 * Technical requirements
 * LINQ providers in .NET
 * Writing PLINQ queries
-* Preserving order in PLINQ while doing parallel executions
-* Merge options in PLINQ
-* Throwing and handling exceptions with PLINQ
-* Combining parallel and sequential LINQ queries
-* Canceling PLINQ queries
+* [Preserving order in PLINQ while doing parallel executions](./Ch04/Examples/_ExecutionOrder.cs "Preserving order in PLINQ while doing parallel executions")
+* [Merge options in PLINQ](./Ch04/Examples/_MergeOptions.cs "Merge options in PLINQ")
+* [Throwing and handling exceptions with PLINQ](./Ch04/Examples/_HandlingException.cs "Throwing and handling exceptions with PLINQ")
+* [Combining parallel and sequential LINQ queries](./Ch04/Examples/_CombiningParallelAndSequential.cs "Combining parallel and sequential LINQ queries")
+* [Canceling PLINQ queries](./Ch04/Examples/_CancelingPLINQQueries.cs "Canceling PLINQ queries")
 * Disadvantages of parallel programming with PLINQ
-* Understanding the factors that affect the performance of PLINQ (speedups
+* Understanding the factors that affect the performance of PLINQ (speedups)
 * Summary
 * Questions
 
 # **Section 2: Data Structures that Support Parallelism in .NET Core**
 
-## **Chapter 5: Synchronization Primitives**
+## **[Chapter 5: Synchronization Primitives](./Ch05/ "Synchronization Primitives")**
 * Technical requirements
 * What are synchronization primitives
-* Interlocked operations 
-* Introduction to locking primitives
-* Introduction to signaling primitives
+* [Interlocked operations](./Ch05/Examples/_SynchronizationPrimitives.cs "Interlocked operations")
+* [Introduction to locking primitives](./Ch05/Examples/_Monitors.cs "Introduction to locking primitives")
+* [Introduction to signaling primitives](./Ch05/Examples/_SignalingPrimitives.cs "Introduction to signaling primitives")
 * Lightweight synchronization primitives
 * Barrier and countdown events
 * SpinWait
