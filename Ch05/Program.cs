@@ -13,7 +13,8 @@ namespace Ch05
             //new _SynchronizationPrimitives().Run();
             //new _Monitors().Run();
             //new _SignalingPrimitives().Run();
-            new _WaitHandles().Run();
+            //new _WaitHandles().Run();
+            new _LightweightSynchronizationPrimitives().Run();
 
             Task.Delay(WaitingTimeAfterExecution).Wait();
         }
