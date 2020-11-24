@@ -66,7 +66,7 @@ Codes of the book: https://www.packtpub.com/application-development/hands-parall
 * Summary
 * Questions
 
-## **Chapter 6: Using Concurrent Collections**
+## **[Chapter 6: Using Concurrent Collections](./Ch06/ "Using Concurrent Collections")**
 * Technical requirements
 * An introduction to concurrent collections
 * A multiple producer-consumer scenario

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Common.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
@@ -20,20 +21,27 @@ namespace Ch05.Examples
         }
 
         #region Semaphore
-        Semaphore Semaphore = new Semaphore(5, 5); //Local Semaphore
+        Semaphore Semaphore = new Semaphore(10, 10); //Local Semaphore
 
         // Any semaphore that is created with a name will be created as a global semaphore
         //Semaphore Semaphore = new Semaphore(5, 5, "Globalsemaphore"); //Global Semaphore
 
         private void SemaphoreExample()
         {
-            Range.AsParallel().AsOrdered().ForAll(i =>
+            Range.AsParallel().ForAll(i =>
             {
                 Semaphore.WaitOne();
                 Console.WriteLine($"{Environment.NewLine}Index {i} making service call using Task {Task.CurrentId}");
 
                 //Simulate Http call
-                DummyService(i);
+                try
+                {
+                    DummyService(i);
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine($"{Environment.NewLine}-------------------- Exception Handled on {Task.CurrentId} | {e.Message} --------------------");
+                }
 
                 Console.WriteLine($"Index {i} releasing semaphore using Task {Task.CurrentId}");
                 Semaphore.Release();
@@ -42,8 +50,13 @@ namespace Ch05.Examples
 
         private static void DummyService(int i)
         {
-            var rand = new Random().Next(1000, 5000);
+            var rand = new Random().Next(1000, 1010);
             Console.WriteLine($"Index {i} waiting for: {rand} ms, using Task {Task.CurrentId}");
+            if (rand.Equals(1005))
+            {
+                Console.WriteLine($"######## Index {i} throw an Exception, using Task {Task.CurrentId} ########");
+                throw new Exception("1005 Exception");
+            }
             Thread.Sleep(rand);
         }
         #endregion

@@ -11,10 +11,10 @@ namespace Ch05
         static void Main(string[] args)
         {
             //new _SynchronizationPrimitives().Run();
-            //new _Monitors().Run();
+            new _Monitors().Run();
             //new _SignalingPrimitives().Run();
             //new _WaitHandles().Run();
-            new _LightweightSynchronizationPrimitives().Run();
+            //new _LightweightSynchronizationPrimitives().Run();
 
             Task.Delay(WaitingTimeAfterExecution).Wait();
         }

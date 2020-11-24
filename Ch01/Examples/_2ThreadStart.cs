@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Common.Interfaces;
+using System;
 using System.Threading;
 
 namespace Ch01

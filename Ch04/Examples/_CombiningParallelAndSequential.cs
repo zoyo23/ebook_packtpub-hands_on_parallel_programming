@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using Common.Interfaces;
+using System.Linq;
 
 namespace Ch04.Examples
 {

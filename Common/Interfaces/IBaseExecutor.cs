@@ -1,4 +1,4 @@
-﻿namespace Ch04
+﻿namespace Common.Interfaces
 {
     public interface IBaseExecutor
     {

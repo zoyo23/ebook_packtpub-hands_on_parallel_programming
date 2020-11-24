@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Common.Interfaces;
+using System;
 using System.IO;
 using System.Text;
 using System.Threading.Tasks;
