@@ -1,4 +1,4 @@
-﻿using System;
+﻿using Ch06.Examples;
 
 namespace Ch06
 {
@@ -6,7 +6,7 @@ namespace Ch06
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            new _ConcurrentQueue().Run();
         }
     }
 }
