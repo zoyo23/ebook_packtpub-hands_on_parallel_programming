@@ -6,7 +6,8 @@ namespace Ch06
     {
         static void Main(string[] args)
         {
-            new _ConcurrentQueue().Run();
+            //new _ConcurrentCollections().Run();
+            new _MultipleProducerConsumerScenario().Run();
         }
     }
 }
