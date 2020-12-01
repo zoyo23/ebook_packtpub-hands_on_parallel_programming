@@ -79,7 +79,7 @@ Codes of the book: https://www.packtpub.com/application-development/hands-parall
 * [Introducing System.Lazy<T>](./Ch07/Examples/_IntroducingSystemLazy.cs "Introducing System.Lazy<T>")
 * [Handling exceptions with the lazy initialization pattern](./Ch07/Examples/_ExceptionsWithLazyWithCaching.cs "Handling exceptions with the lazy initialization pattern")
 * [Lazy initialization with thread-local storage](./Ch07/Examples/_LazyInitializationWithThreadLocalStorage.cs "Lazy initialization with thread-local storage")
-* Reducing the overhead with lazy initializations
+* [Reducing the overhead with lazy initializations](./Ch07/Examples/_ReducingTheOverheadWithLazyInitializations.cs "Reducing the overhead with lazy initializations")
 * Summary
 * Questions
 

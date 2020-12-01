@@ -8,7 +8,8 @@ namespace Ch07
         {
             //new _IntroducingSystemLazy().Run();
             //new _ExceptionsWithLazyWithCaching().Run();
-            new _LazyInitializationWithThreadLocalStorage().Run();
+            //new _LazyInitializationWithThreadLocalStorage().Run();
+            new _ReducingTheOverheadWithLazyInitializations().Run();
         }
     }
 }
