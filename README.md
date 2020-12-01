@@ -73,12 +73,12 @@ Codes of the book: https://www.packtpub.com/application-development/hands-parall
 * Summary
 * Questions
 
-## **Chapter 7: Improving Performance with Lazy Initialization**
+## **[Chapter 7: Improving Performance with Lazy Initialization](./Ch07/ "Improving Performance with Lazy Initialization")**
 * Technical requirements
 * Introducing lazy initialization concepts
-* Introducing System.Lazy<T
-* Handling exceptions with the lazy initialization pattern
-* Lazy initialization with thread-local storage
+* [Introducing System.Lazy<T>](./Ch07/Examples/_IntroducingSystemLazy.cs "Introducing System.Lazy<T>")
+* [Handling exceptions with the lazy initialization pattern](./Ch07/Examples/_ExceptionsWithLazyWithCaching.cs "Handling exceptions with the lazy initialization pattern")
+* [Lazy initialization with thread-local storage](./Ch07/Examples/_LazyInitializationWithThreadLocalStorage.cs "Lazy initialization with thread-local storage")
 * Reducing the overhead with lazy initializations
 * Summary
 * Questions
