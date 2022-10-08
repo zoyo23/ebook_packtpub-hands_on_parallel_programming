@@ -1,7 +1,7 @@
 # Hands-On Parallel Programming with C# 8 and .NET Core 3
-Codes of the book: https://www.packtpub.com/application-development/hands-parallel-programming-c-8-and-net-core-3
+Codes of the book: https://www.packtpub.com/product/hands-on-parallel-programming-with-c-8-and-net-core-3/9781789132410
 
-![Book](https://www.packtpub.com/media/catalog/product/cache/bf3310292d6e1b4ca15aeea773aca35e/9/7/9781789132410-original.png)
+![Book](https://static.packt-cdn.com/products/9781789132410/cover/9781789132410-original.png)
 
 
 # **Section 1: Fundamentals of Threading, Multitasking, and Asynchrony**
